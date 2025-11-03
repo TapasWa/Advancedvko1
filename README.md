@@ -23,5 +23,4 @@ APIs used
 - Dog API: https://dog.ceo/dog-api/
 - Wikipedia REST API: https://en.wikipedia.org/api/rest_v1/
 
-License
-- MIT — feel free to reuse or modify.
+
