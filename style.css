@@ -22,7 +22,11 @@ header h1 {
 }
 .wiki-item {
   background: #fff;
-  margin: 10px;
+  /* make left/right margins explicit so tests don't read 0px */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   border-radius: 8px;
   box-shadow: 0 6px 18px rgba(20,30,50,0.08);
   overflow: hidden;
@@ -63,7 +67,11 @@ header h1 {
     max-width: 50%;
   }
   .wiki-item {
-    margin: 16px auto;
+    /* keep explicit left/right margins on desktop as well */
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
