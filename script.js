@@ -1,4 +1,3 @@
-// Generate wiki-items dynamically using createElement and appendChild
 (function(){
   var breeds = [
     {display: 'Beagle', wiki: 'Beagle', api: 'beagle'},
@@ -15,7 +14,6 @@
     return;
   }
 
-  // For each breed create the DOM structure per template and then fetch data
   breeds.forEach(function(breed){
     // Template:
     // <div class="wiki-item">
